@@ -25,13 +25,13 @@ class Header extends React.Component {
             </NavLink>
            <NavLink
               className="navbar-item"
-              to="/login"
+              to="/page2"
               activeClassName="is-active"
             >
               <span className="icon has-text-primary" style={{ marginRight: 5 }}>
                 <i className="fas fa-code"></i>
               </span>
-              Login
+              Page2
             </NavLink>
       </nav>
     )
